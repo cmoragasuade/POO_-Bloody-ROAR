@@ -1,9 +1,9 @@
 <p><strong><em><span data-contrast="auto"> BLOODY ROAR<span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2}"> - </span>GRUPO 6</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2}"> <br /><br /></span></strong><em><span data-contrast="auto"><span style="text-decoration: underline;"><strong>INTEGRANTES:</strong></span></span></em></p>
 <ul style="list-style-type: disc;">
-<li><em><span data-contrast="auto">Culshaw, Federico</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2}"> </span></li>
-<li><em><span data-contrast="auto">Costana lazo, Joselin</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> </span></li>
-<li><em><span data-contrast="auto">Bergantino, Adriel A.</span></em> </li>
-<li><em><span data-contrast="auto">Moragas, Catalina</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> </span><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> <br /><br /></span></li>
+<li><em><span data-contrast="auto">Culshaw, Federico: LU1174721 </span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2}"> </span></li>
+<li><em><span data-contrast="auto">Costana lazo, Joselin: LU1218192</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> </span></li>
+<li><em><span data-contrast="auto">Bergantino, Adriel A.: LU1111637</span></em> </li>
+<li><em><span data-contrast="auto">Moragas, Catalina: LU1177331</span></em><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> </span><span data-ccp-props="{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559685&quot;:1416,&quot;335559731&quot;:708}"> <br /><br /></span></li>
 </ul>
 <p><strong><span data-contrast="auto">Bloody Roar<br /><br /></span></strong><span data-contrast="auto"> El juego es un RPG por turnos donde controlas a un grupo de combatientes (Party) que debe superar batallas consecutivas contra diversos enemigos.</span><strong><span data-contrast="auto"><br /></span></strong><span data-contrast="auto"> No requiere navegación ni exploración libre de mapa, enfocándose 100% en la estrategia y la gestión de recursos en combate. </span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559738&quot;:0,&quot;335559739&quot;:0}"> <br /><br /></span></p>
 <p> </p>
