@@ -1,0 +1,49 @@
+autonumber
+title Diagrama de secuencia 1 - Turno de Yugo: Transformación Bestia y ataque
+
+actor Jugador as J
+participant "batalla:Batalla" as B
+participant "yugo:Guerrero" as Y
+participant "enemigo:EnemigoTerrestre" as E
+
+note over B: Escenario: un turno de Yugo\n(transformacion + ataque + respuesta enemiga)
+
+== Fase de Transformacion ==
+
+B -> Y: transformar()
+activate Y
+Y -> Y: consumirMana(costoTransformacion)
+Y -> Y: aumentarAtaqueDefensa()
+Y -> Y: habilitarTecnicaEspecial()
+Y --> B: transformacionActiva
+deactivate Y
+
+== Fase de Ataque ==
+
+B -> Y: calcularAtaque()
+activate Y
+Y -> Y: ActivarFuriaLobo(vidaActual)
+Y --> B: dañoCalculado
+deactivate Y
+B -> E: aplicarDaño(daño)
+activate E
+E -> E: reducirVida(daño)
+E --> B: vidaRestante
+deactivate E
+
+== Verificacion de fin de combate ==
+
+alt enemigo.vida == 0
+    B -> B: otorgarExperiencia()
+    note right of B: La party recibe XP\n(ver Diagrama 2)
+else enemigo.vida > 0
+    B -> E: atacar()
+    activate E
+    E -> Y: aplicarDaño(dañoEnemigo)
+    activate Y
+    Y -> Y: mitigarDaño()
+    Y --> E: vidaRestante
+    deactivate Y
+    E --> B: turnoEnemigoResuelto
+    deactivate E
+end

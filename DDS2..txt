@@ -1,0 +1,24 @@
+autonumber
+title Diagrama de secuencia 2 - Fin de batalla y subida de nivel
+
+participant "batalla:Batalla" as B
+participant "p:Personaje" as P
+
+note over B: Escenario: todos los enemigos\nderrotados -> se otorga XP\ny se verifica subida de nivel
+
+B -> B: verificarFinBatalla()
+
+loop por cada personaje p de la party
+    B -> P: sumarExperiencia(xpGanada)
+    activate P
+    P --> B: experienciaActual
+    deactivate P
+    B -> B: verificarSubidaNivel(p)
+    alt experienciaActual >= limiteNivel
+        B -> P: subirDeNivel()
+        activate P
+        P -> P: incrementarEstadisticas()
+        P --> B: nivelActualizado
+        deactivate P
+    end
+end
