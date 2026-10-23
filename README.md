@@ -111,7 +111,6 @@
 <p><strong><span data-contrast="auto">Cierre</span></strong></p>
 <p><span data-contrast="auto">El presente documento define las bases del sistema Bloody Roar: sus personajes, enemigos, mecánicas de combate, sistema de transformación, inventario, objetos, efectos de estado, progresión y recompensas.</span></p>
 <p><span data-contrast="auto">El diseño presentado servirá como punto de partida para la implementación de la Fase B, donde se desarrollará el motor de combate, la interfaz gráfica y la persistencia de partidas.</span></p>
-<p><span data-contrast="auto">Los diagramas de clases y de secuencia incluidos en este documento reflejan las decisiones de diseño tomadas por el grupo y serán la base para el desarrollo del código.</span></p>
 
 <p><strong><span data-contrast="auto">Propuesta Visual Inicial</span></strong></p>
 <p><span data-contrast="auto">Se presentan las pantallas principales del juego, que servirán de base para la implementación de la interfaz gráfica en la Fase B.</span></p>
