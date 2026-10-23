@@ -108,10 +108,6 @@
 <p><span data-contrast="auto">Al finalizar una batalla, la party recibe como recompensa principal experiencia.</span></p>
 <p><span data-contrast="auto">Adicionalmente, el sistema contempla la posibilidad de otorgar ítems u oro, que se incorporan al inventario de la party.</span></p>
 
-<p><strong><span data-contrast="auto">Cierre</span></strong></p>
-<p><span data-contrast="auto">El presente documento define las bases del sistema Bloody Roar: sus personajes, enemigos, mecánicas de combate, sistema de transformación, inventario, objetos, efectos de estado, progresión y recompensas.</span></p>
-<p><span data-contrast="auto">El diseño presentado servirá como punto de partida para la implementación de la Fase B, donde se desarrollará el motor de combate, la interfaz gráfica y la persistencia de partidas.</span></p>
-
 <p><strong><span data-contrast="auto">Propuesta Visual Inicial</span></strong></p>
 <p><span data-contrast="auto">Se presentan las pantallas principales del juego, que servirán de base para la implementación de la interfaz gráfica en la Fase B.</span></p>
 
