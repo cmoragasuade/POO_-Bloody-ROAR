@@ -42,3 +42,5 @@ public abstract class Personaje extends Entidad {
     
     // Acá irán los métodos de usarItem, defender, etc.
 }
+
+
