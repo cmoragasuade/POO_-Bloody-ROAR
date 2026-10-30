@@ -21,7 +21,7 @@ import dto.EntidadDTO;
 import dto.EstadoBatallaDTO;
 import dto.ItemDTO;
 import vista.paneles.PanelEstadoEntidad;
-import vista.paneles.PanelFondo;
+import vista.PanelFondo;
 import vista.paneles.PanelRegistro;
 
 // Pantalla de combate por turnos. Igual que en EjemploBatallaMVC:
