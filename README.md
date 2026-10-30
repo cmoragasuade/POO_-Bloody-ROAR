@@ -177,19 +177,19 @@ Adicionalmente, el sistema contempla la posibilidad de otorgar ítems u oro, que
 
 ### Pantalla Inicial
 
-<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/inicio.jpg" />
+<img width="1200" height="300" alt="Banner" src="src/resources/inicio.jpg" />
 
 ### Pantalla de Estado de la Party
 
-<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/Pantalla.png" />
+<img width="1200" height="300" alt="Banner" src="src/resources/Pantalla.png" />
 
 ### Pantalla de Batalla
 
-<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/PantallaBatalla.png" />
+<img width="1200" height="300" alt="Banner" src="src/resources/PantallaBatalla.png" />
 
 ### Pantalla de Resultados
 
-<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/PantallaResultados.png" />
+<img width="1200" height="300" alt="Banner" src="src/resources/PantallaResultados.png" />
 
 ---
 
