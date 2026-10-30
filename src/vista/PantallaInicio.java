@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 import controlador.GameManager;
 import controlador.PartidaException;
-import vista.PanelFondo;
+import vista.paneles.PanelFondo;
 
 // Menú principal. La pantalla solo muestra botones y le avisa al GameManager qué se tocó.
 public class PantallaInicio extends JFrame {

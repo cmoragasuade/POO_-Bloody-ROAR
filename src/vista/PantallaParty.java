@@ -21,7 +21,8 @@ import controlador.PartidaException;
 import dto.EntidadDTO;
 import dto.EstadoPartidaDTO;
 import dto.ItemDTO;
-import vista.PanelFondo;
+import vista.paneles.PanelFondo;
+
 import java.awt.Graphics;
 // Estado de la party entre batallas. Desde acá se va a pelear, a la tienda o se guarda.
 public class PantallaParty extends JFrame {

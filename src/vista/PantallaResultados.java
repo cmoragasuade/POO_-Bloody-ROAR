@@ -18,7 +18,7 @@ import javax.swing.SwingConstants;
 
 import controlador.GameManager;
 import dto.ResultadoBatallaDTO;
-import vista.PanelFondo;
+import vista.paneles.PanelFondo;
 
 // Resultado de la batalla: victoria (con recompensas) o derrota (game over)
 public class PantallaResultados extends JFrame {

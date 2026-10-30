@@ -1,4 +1,4 @@
-package vista;
+package vista.paneles;
 
 import java.awt.Color;
 import java.awt.Graphics;
