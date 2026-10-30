@@ -1,26 +1,29 @@
 package vista;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Image;
 
 import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.SwingConstants;
 
 import controlador.GameManager;
 import controlador.PartidaException;
-import util.CargadorImagenes;
+import vista.PanelFondo;
 
 // Menú principal. La pantalla solo muestra botones y le avisa al GameManager qué se tocó.
 public class PantallaInicio extends JFrame {
     private static final long serialVersionUID = 1L;
+
+    private static final Color COLOR_FONDO = new Color(20, 20, 35);
+    private static final Color COLOR_BOTON = new Color(35, 35, 60);
+    private static final Color COLOR_BORDE = new Color(230, 170, 40);
 
     private final GameManager gameManager;
 
@@ -33,42 +36,60 @@ public class PantallaInicio extends JFrame {
         this.gameManager = gameManager;
 
         setTitle("Bloody Roar - Menú Principal");
-        setSize(600, 520);
+        setSize(800, 740);
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
+        getContentPane().setBackground(COLOR_FONDO);
 
         inicializarComponentes();
         inicializarEventos();
     }
 
     private void inicializarComponentes() {
-        // Imagen del título (si no está, se muestra el texto)
-        JLabel lblTitulo = new JLabel("BLOODY ROAR - RPG", SwingConstants.CENTER);
-        lblTitulo.setFont(new Font("Arial", Font.BOLD, 26));
-        lblTitulo.setBorder(BorderFactory.createEmptyBorder(15, 0, 15, 0));
-        ImageIcon imagen = CargadorImagenes.cargar("bloody roar title.jpeg");
-        if (imagen != null) {
-            Image escalada = imagen.getImage().getScaledInstance(420, 220, Image.SCALE_SMOOTH);
-            lblTitulo.setIcon(new ImageIcon(escalada));
-            lblTitulo.setText("");
-        }
-        add(lblTitulo, BorderLayout.NORTH);
+        // Arriba: la imagen del título como banner, sin capa oscura
+        PanelFondo banner = new PanelFondo("/resources/inicio.jpg", 0);
+        banner.setPreferredSize(new Dimension(800, 420));
+        add(banner, BorderLayout.NORTH);
 
-        JPanel panelBotones = new JPanel(new GridLayout(4, 1, 12, 12));
-        panelBotones.setBorder(BorderFactory.createEmptyBorder(10, 150, 30, 150));
+        // Abajo: panel oscuro con los botones
+        JPanel panelMenu = new JPanel(new BorderLayout());
+        panelMenu.setBackground(COLOR_FONDO);
+
+        JPanel panelBotones = new JPanel(new GridLayout(4, 1, 0, 12));
+        panelBotones.setOpaque(false);
+        panelBotones.setBorder(BorderFactory.createEmptyBorder(25, 230, 25, 230));
 
         btnIniciar = new JButton("Iniciar Nueva Partida");
         btnCargar = new JButton("Cargar Partida");
         btnTienda = new JButton("Abrir Tienda");
         btnSalir = new JButton("Salir");
 
+        estilizarBoton(btnIniciar);
+        estilizarBoton(btnCargar);
+        estilizarBoton(btnTienda);
+        estilizarBoton(btnSalir);
+
         panelBotones.add(btnIniciar);
         panelBotones.add(btnCargar);
         panelBotones.add(btnTienda);
         panelBotones.add(btnSalir);
 
-        add(panelBotones, BorderLayout.CENTER);
+        panelMenu.add(panelBotones, BorderLayout.CENTER);
+        add(panelMenu, BorderLayout.CENTER);
+    }
+
+    // Estilo oscuro con borde dorado para que los botones combinen con el juego
+    private void estilizarBoton(JButton boton) {
+        boton.setFont(new Font("Arial", Font.BOLD, 16));
+        boton.setForeground(Color.WHITE);
+        boton.setBackground(COLOR_BOTON);
+        boton.setOpaque(true);
+        boton.setContentAreaFilled(true);
+        boton.setFocusPainted(false);
+        boton.setBorder(BorderFactory.createLineBorder(COLOR_BORDE, 2));
+        boton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
     }
 
     private void inicializarEventos() {

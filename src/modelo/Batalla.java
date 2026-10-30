@@ -70,6 +70,7 @@ public class Batalla {
 
     // ===================== Acciones del jugador =====================
 
+
     public void atacar(int indiceEnemigo) {
         if (!esTurnoDelJugador()) {
             return;
