@@ -179,7 +179,7 @@ Capturas de la aplicación en ejecución (Fase B).
 
 ### Pantalla Inicial
 
-![Pantalla inicial](docs/captura_inicio.png)
+<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/inicio.jpg" />
 
 ### Pantalla de Estado de la Party
 
