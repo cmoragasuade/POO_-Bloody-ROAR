@@ -173,9 +173,7 @@ Adicionalmente, el sistema contempla la posibilidad de otorgar ítems u oro, que
 
 ---
 
-## Pantallas del juego
 
-Capturas de la aplicación en ejecución (Fase B).
 
 ### Pantalla Inicial
 
@@ -183,15 +181,15 @@ Capturas de la aplicación en ejecución (Fase B).
 
 ### Pantalla de Estado de la Party
 
-![Estado de la party](docs/captura_party.png)
+<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/inicio.jpg](https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/Pantalla.png" />
 
 ### Pantalla de Batalla
 
-![Pantalla de batalla](docs/captura_batalla.png)
+<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/PantallaBatalla.png" />
 
 ### Pantalla de Resultados
 
-![Pantalla de resultados](docs/captura_resultados.png)
+<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/PantallaResultados.png" />
 
 ---
 
