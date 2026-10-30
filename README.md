@@ -181,7 +181,7 @@ Adicionalmente, el sistema contempla la posibilidad de otorgar ítems u oro, que
 
 ### Pantalla de Estado de la Party
 
-<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/inicio.jpg](https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/Pantalla.png" />
+<img width="1200" height="300" alt="Banner" src="https://github.com/cmoragasuade/POO_-Bloody-ROAR/blob/main/src/resources/Pantalla.png" />
 
 ### Pantalla de Batalla
 
