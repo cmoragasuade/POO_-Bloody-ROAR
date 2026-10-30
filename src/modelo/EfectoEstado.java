@@ -1,6 +1,11 @@
 package modelo;
 
-public class EfectoEstado {
+import java.io.Serializable;
+
+// Alteración temporal (buff/debuff). "valor" es lo que suma al ataque mientras dura.
+public class EfectoEstado implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private String nombre;
     private int duracion;
     private int valor;
